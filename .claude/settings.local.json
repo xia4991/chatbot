@@ -4,7 +4,9 @@
       "Bash(python3 -m venv .venv && source .venv/bin/activate && pip install anthropic streamlit 2>&1 | tail -5)",
       "Bash(source /Users/xab/Projects/chatbot/.venv/bin/activate && pip freeze | grep -E \"anthropic|streamlit\")",
       "Bash(source /Users/xab/Projects/chatbot/.venv/bin/activate && pip install openai 2>&1 | tail -3)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(gh repo:*)",
+      "Bash(source /Users/xab/Projects/chatbot/.venv/bin/activate && pip install python-dotenv 2>&1 | tail -3)"
     ]
   }
 }
